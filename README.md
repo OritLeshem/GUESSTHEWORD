@@ -1,5 +1,6 @@
 # GUESSTHEWORD
 Being a fresh SEI Bootcamp student, I've been asked to build a game for my first project. I had to choose a game from a list of games, sorted from the easiest to the hardest. Having no coding experience, I picked the easiest one. I wanted a soft start and to get the feeling of accomplishment. 
+
 **description of my game:**
 So… I pIcked the "HANGMAN GAME."
 BUT I didn't want to hang anyone, so I changed it to make it positive, funny and fun.
@@ -23,4 +24,5 @@ And the other section is for the secret word, hint and data about whether you've
 I'll be happy to read your thoughts.
 And remember - it is my first project, be gentle :)
 Thank you very much.
- Orit Leshem 
+
+Orit Leshem 
