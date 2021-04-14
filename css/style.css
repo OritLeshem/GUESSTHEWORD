@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    max-width: 100vw;
+    background-color: black;
+    color: white;
+    font-family: Georgia;
+}
+img{
+    height: auto;
+    width: 100%;
+    
+    border-radius: 15px;
+    overflow: hidden;  
+}
+.q_pic{
+    position: absolute;
+    top: 0px;
+    
+    height: 5vh;
+    width: 100%;
+    color: black ;
+    background-color: white;
+    opacity: 80%;
+    font-size: 18px;
+    text-align: center;
+    border: solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+}
+.level{
+    
+    display: absolute;
+    height: 5vh;
+    width: 40vw;
+    background-color:rgb(229, 50, 159);
+    border: solid gray;
+    border-radius: 10px;
+    font-family: Georgia;
+    box-shadow: 2px 2px 2px gray;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia;
+    margin-bottom: 3vh;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+.whk{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.word-wrapper{
+    display: flex;
+    justify-content: space-around;
+    top: 20vh;
+    height: 5vh;
+    width: 90vw;
+    color:black;
+    background-color:rgb(68, 177, 228);
+    border: solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+}
+span{
+    display: flex;
+    height: 40px;
+    width: 20px;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.hint{
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+    height: 5vh;
+    width: 90vw;color: black;
+    font-size: 20px;
+    background-color:#10f7f7;
+    border: solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    font-size: 20px;
+}
+.keyboardErea{
+    align-items: center;
+    padding-bottom: 4vh;
+}  
+
+ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    list-style: none;
+    border: 1px solid black;
+}
+.letter{
+    font-size: 20px;
+    width: 30PX;
+    height: 30px;
+}
+.moto_win , .moto_lose{
+    top: 6vh;
+    left: 9vw;
+    font-size: 30px;
+    text-align: center;
+}
+.num_left_tries,.moto_mistake{
+    top: 7vh;
+    left: 7vw;
+    font-size: 30px;
+    text-align: center;
+} 
+@media screen and (min-width: 600px){
+    body{
+        display: flex;
+        justify-items: space-between;
+    }
+  
+
+    
+    .q_pic{
+        height: 7vh;
+        width: 40vw;
+        font-size: 22px;
+        text-align: left;
+    }
+    .whk{
+        margin-top: 7vh;
+        margin-right: 2vw;
+        margin-bottom: 3vh;
+    }
+           
+    .word-wrapper, .hint{
+        height: 10vh;
+        width: 30vw;
+    }
+    .letter{
+        font-size: 20px;
+        width: 30PX;
+        height: 30px;
+    }
+    .moto_win , .moto_lose{
+        font-size: 50px;
+
+}
+    .level{        
+    transform: rotate(90deg);
+}
+    .level{
+        position:relative;
+        top: 15vh;
+        right: 3vw;
+        height: 10vh;
+        width: 30vw;
+        background-color:rgb(229, 50, 159);
+        border: solid gray;
+        border-radius: 10px;
+        font-family: Georgia;
+        box-shadow: 2px 2px 2px gray;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        
+    }
+}
