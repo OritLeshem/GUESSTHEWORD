@@ -17,7 +17,6 @@ img{
 .q_pic{
     position: absolute;
     top: 0px;
-    
     height: 5vh;
     width: 100%;
     color: black ;
@@ -31,7 +30,9 @@ img{
 }
 .level{
     
-    display: absolute;
+    position: relative;
+    top: 1vh;
+    left: 3vw;
     height: 5vh;
     width: 40vw;
     background-color:rgb(229, 50, 159);
@@ -47,8 +48,11 @@ img{
     margin-left: 1vh;
 }
 .whk{
+    margin: 80px;
     flex-direction: column;
+    
     align-items: center;
+    
     justify-content: space-around;
 }
 
@@ -66,10 +70,11 @@ img{
 }
 span{
     display: flex;
+    
     height: 40px;
     width: 20px;
     justify-content: center;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
     font-size: 20px;
 }
 
@@ -109,23 +114,24 @@ li{
 .moto_win , .moto_lose{
     top: 6vh;
     left: 9vw;
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
 }
 .num_left_tries,.moto_mistake{
     top: 7vh;
     left: 7vw;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 } 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 800px){
     body{
         display: flex;
         justify-items: space-between;
     }
-  
-
-    
+    img{
+        height: auto;
+        min-width: 475px;
+    }
     .q_pic{
         height: 7vh;
         width: 40vw;
@@ -141,6 +147,10 @@ li{
     .word-wrapper, .hint{
         height: 10vh;
         width: 30vw;
+    }
+    span{
+        position: relative;
+        top: 40px;
     }
     .letter{
         font-size: 20px;
