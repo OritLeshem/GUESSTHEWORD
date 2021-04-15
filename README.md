@@ -16,7 +16,7 @@ The code has two areas. One for the prize-picture
 And the other section is for the secret word, hint and data about whether you've succeeded or not.
 
 **Next Steps:**
- Planned future enhancements is makeing the code more "DRY" and improving the CSS. It is endless....
+ Planned future enhancements are: makeing the code "DRY" and improving the CSS. It is endless....
  
 
 **Screen Shot:** ![image](https://user-images.githubusercontent.com/80868084/114790675-24317700-9d53-11eb-8376-87432c21e3e0.png)
