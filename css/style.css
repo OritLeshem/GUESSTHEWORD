@@ -22,7 +22,7 @@ img{
     color: black ;
     background-color: white;
     opacity: 80%;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     border: solid gray;
     border-radius: 10px;
@@ -48,7 +48,7 @@ img{
     margin-left: 1vh;
 }
 .whk{
-    margin: 80px;
+    margin: 40px;
     flex-direction: column;
     
     align-items: center;
@@ -70,17 +70,16 @@ img{
 }
 span{
     display: flex;
-    
-    height: 40px;
+    height: 25px;
     width: 20px;
     justify-content: center;
     margin-bottom: 1px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .hint{
-    margin-top: 6vh;
-    margin-bottom: 5vh;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
     height: 5vh;
     width: 90vw;color: black;
     font-size: 20px;
@@ -88,11 +87,11 @@ span{
     border: solid gray;
     border-radius: 10px;
     box-shadow: 2px 2px 2px gray;
-    font-size: 20px;
+    font-size: 18px;
 }
 .keyboardErea{
     align-items: center;
-    padding-bottom: 4vh;
+    padding-bottom: 1vh;
 }  
 
 ul{
@@ -108,19 +107,19 @@ li{
 }
 .letter{
     font-size: 20px;
-    width: 30PX;
-    height: 30px;
+    width: 25PX;
+    height: 25px;
 }
 .moto_win , .moto_lose{
-    top: 6vh;
+    top: 4vh;
     left: 9vw;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
 }
 .num_left_tries,.moto_mistake{
-    top: 7vh;
+    top: 5vh;
     left: 7vw;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 } 
 @media screen and (min-width: 800px){
@@ -166,10 +165,11 @@ li{
 }
     .level{
         position:relative;
-        top: 15vh;
-        right: 3vw;
+        top: 25vh;
+        left: 32vw;
+        
         height: 10vh;
-        width: 30vw;
+        width: 13vw;
         background-color:rgb(229, 50, 159);
         border: solid gray;
         border-radius: 10px;
