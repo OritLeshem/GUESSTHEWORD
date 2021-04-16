@@ -21,6 +21,8 @@ And the other section is for the secret word, hint and data about whether you've
 
 **Screen Shot:** ![image](https://user-images.githubusercontent.com/80868084/114790675-24317700-9d53-11eb-8376-87432c21e3e0.png)
 
+**link:** https://oritleshem.github.io/GUESSTHEWORD/
+
 I'll be happy to read your thoughts.
 And remember - it is my first project, be gentle :)
 Thank you very much.
